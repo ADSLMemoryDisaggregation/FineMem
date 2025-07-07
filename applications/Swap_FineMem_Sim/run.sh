@@ -1,0 +1,2 @@
+python simulation_one_time.py 8336 --num_servers 5 --cpus 64 --mem 81920 --workload snappy,xgboost,redis   --use_shrink --ratios 2:2:1 --workload_ratios 80,50,60 --remotemem --until 200 --size 200 --max_far 163840
+python simulation_one_time.py 9428 --num_servers 5 --cpus 64 --mem 81920 --workload snappy,redis,xgboost   --use_shrink --ratios 28:51:21 --workload_ratios 80,60,50 --remotemem --until 200 --size 200 --max_far 163840
